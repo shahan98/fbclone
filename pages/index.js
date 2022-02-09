@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Header from '../components/Header';
 import Sidebar from '../components/Sidebar';
 import Feed from '../components/Feed';
+import Widgets from '../components/Widgets';
 //import Login from '../components/Login';
 
 export default function Home() {
@@ -18,7 +19,7 @@ export default function Home() {
 			<main className='flex'>
 				<Sidebar />
 				<Feed />
-				{/* Widgets */}
+				<Widgets />
 			</main>
 		</div>
 	);

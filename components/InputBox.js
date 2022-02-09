@@ -6,7 +6,7 @@ import {
 	EmojiHappyIcon,
 } from '@heroicons/react/solid';
 import { db } from '../firebase';
-import firebase from 'firebase';
+import firebase from 'firebase/app';
 //import {useSession} from 'next-auth/client';
 
 function InputBox() {
